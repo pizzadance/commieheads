@@ -13,12 +13,14 @@ Figures: Marx, Engels, Lenin, Gramsci, Trotsky, Luxemburg, Mao, Ho Chi Minh, Che
 Double-click `dist/CommieHeads.saver` (or copy it to `~/Library/Screen Savers/`), then pick
 **CommieHeads** in System Settings -> Screen Saver.
 
-## Debian / Linux (xscreensaver)
-    sudo apt install xscreensaver python3-pygame
-    tar xzf commieheads-linux.tar.gz && cd commieheads-linux && ./install.sh
-`install.sh` prints the one line to add to `~/.xscreensaver`. To try it without xscreensaver:
-`~/.local/bin/commieheads -window` (or no flag for fullscreen; any key quits).
-Note: GNOME on Wayland does not run xscreensaver hacks — use an X11 session (or XFCE/MATE/LXDE etc.).
+## Debian / Linux (XFCE, MATE or xscreensaver on X11)
+    sudo apt install python3-pygame
+    sh linux/install.sh                    # from the repo (or ./install.sh inside the release tarball)
+The installer uses sudo: screensaver hosts only run programs from their hack directory, so it installs to
+`/usr/local/share/commieheads`, links it into `/usr/libexec/xscreensaver`, and adds the XFCE/MATE theme entry.
+Then pick **CommieHeads** in Settings -> Screensaver (XFCE/MATE) or in `xscreensaver-settings`.
+Try it without a screensaver host: `commieheads -window` (or no flag for fullscreen; any key quits).
+Note: GNOME on Wayland does not run X11 screensavers — use an X11 session.
 
 ## Layout
 - `assets/heads/<id>_{1,2,3}.png` — head cut-outs, all normalized to the same face height
