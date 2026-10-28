@@ -1,0 +1,476 @@
+{
+  "background": "#992222",
+  "secondsPerWord": 2,
+  "figures": [
+    {
+      "id": "marx",
+      "name": "Karl Marx",
+      "years": "1818–1883",
+      "quotes": [
+        {
+          "text": "Workers of the world, unite!",
+          "source": "The Communist Manifesto (1848)"
+        },
+        {
+          "text": "The philosophers have only interpreted the world, in various ways. The point, however, is to change it.",
+          "source": "Theses on Feuerbach (1845)"
+        },
+        {
+          "text": "The history of all hitherto existing society is the history of class struggles.",
+          "source": "The Communist Manifesto (1848)"
+        },
+        {
+          "text": "The proletarians have nothing to lose but their chains. They have a world to win.",
+          "source": "The Communist Manifesto (1848)"
+        },
+        {
+          "text": "From each according to his abilities, to each according to his needs!",
+          "source": "Critique of the Gotha Programme (1875)"
+        },
+        {
+          "text": "Men make their own history, but they do not make it as they please.",
+          "source": "The Eighteenth Brumaire of Louis Bonaparte (1852)"
+        },
+        {
+          "text": "Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people.",
+          "source": "A Contribution to the Critique of Hegel's Philosophy of Right (1844)"
+        },
+        {
+          "text": "Capital is dead labour, that, vampire-like, only lives by sucking living labour, and lives the more, the more labour it sucks.",
+          "source": "Capital, Vol. I, Ch. 10 (1867)"
+        },
+        {
+          "text": "It is not the consciousness of men that determines their being, but, on the contrary, their social being that determines their consciousness.",
+          "source": "A Contribution to the Critique of Political Economy, Preface (1859)"
+        },
+        {
+          "text": "All that is solid melts into air, all that is holy is profaned.",
+          "source": "The Communist Manifesto (1848)"
+        }
+      ]
+    },
+    {
+      "id": "engels",
+      "name": "Friedrich Engels",
+      "years": "1820–1895",
+      "quotes": [
+        {
+          "text": "Freedom is the recognition of necessity.",
+          "source": "Anti-Dühring (1878), stating Hegel's view: \"freedom is the insight into necessity\""
+        },
+        {
+          "text": "Freedom does not consist in any dreamt-of independence from natural laws, but in the knowledge of these laws.",
+          "source": "Anti-Dühring, Pt. 1, Ch. 11 (1878)"
+        },
+        {
+          "text": "The state is not \"abolished\". It dies out.",
+          "source": "Socialism: Utopian and Scientific (1880)"
+        },
+        {
+          "text": "A revolution is certainly the most authoritarian thing there is.",
+          "source": "On Authority (1872)"
+        },
+        {
+          "text": "The first class oppression coincides with that of the female sex by the male.",
+          "source": "The Origin of the Family, Private Property and the State (1884)"
+        },
+        {
+          "text": "In a sense, we have to say that labour created man himself.",
+          "source": "The Part Played by Labour in the Transition from Ape to Man (1876)"
+        },
+        {
+          "text": "The state is nothing but a machine for the oppression of one class by another, and indeed in the democratic republic no less than in the monarchy.",
+          "source": "Introduction to The Civil War in France (1891)"
+        },
+        {
+          "text": "Do you want to know what this dictatorship looks like? Look at the Paris Commune. That was the Dictatorship of the Proletariat.",
+          "source": "Introduction to The Civil War in France (1891)"
+        },
+        {
+          "text": "Just as Darwin discovered the law of development of organic nature, so Marx discovered the law of development of human history.",
+          "source": "Speech at the Grave of Karl Marx (1883)"
+        },
+        {
+          "text": "What each individual wills is obstructed by everyone else, and what emerges is something that no one willed.",
+          "source": "Letter to Joseph Bloch (1890)"
+        }
+      ]
+    },
+    {
+      "id": "lenin",
+      "name": "Vladimir Lenin",
+      "years": "1870–1924",
+      "quotes": [
+        {
+          "text": "Without a revolutionary theory there can be no revolutionary movement.",
+          "source": "What Is to Be Done? (1902)"
+        },
+        {
+          "text": "Communism is Soviet government plus the electrification of the whole country.",
+          "source": "Speech to the Moscow Gubernia Party Conference (1920)"
+        },
+        {
+          "text": "Freedom in capitalist society always remains about the same as it was in the ancient Greek republics: freedom for the slave-owners.",
+          "source": "The State and Revolution (1917)"
+        },
+        {
+          "text": "A newspaper is not only a collective propagandist and a collective agitator, it is also a collective organiser.",
+          "source": "What Is to Be Done? (1902)"
+        },
+        {
+          "text": "No revolution is worth anything unless it can defend itself.",
+          "source": "Speech, October 1918 (Collected Works, Vol. 28)"
+        },
+        {
+          "text": "History is moving in zig-zags and by roundabout ways.",
+          "source": "Collected Works, Vol. 27 (1918)"
+        },
+        {
+          "text": "You can become a Communist only when you enrich your mind with a knowledge of all the treasures created by mankind.",
+          "source": "The Tasks of the Youth Leagues (1920)"
+        },
+        {
+          "text": "One cannot live in society and be free from society.",
+          "source": "Party Organisation and Party Literature (1905)"
+        },
+        {
+          "text": "Victory will belong only to those who have faith in the people, those who are immersed in the life-giving spring of popular creativity.",
+          "source": "Speech to the All-Russia Central Executive Committee (4 November 1917)"
+        },
+        {
+          "text": "The oppressed are allowed once every few years to decide which particular representatives of the oppressing class shall represent and repress them in parliament!",
+          "source": "The State and Revolution (1917)"
+        }
+      ]
+    },
+    {
+      "id": "gramsci",
+      "name": "Antonio Gramsci",
+      "years": "1891–1937",
+      "quotes": [
+        {
+          "text": "I hate the indifferent. Indifference is apathy, parasitism, cowardice; it is not life.",
+          "source": "Indifferenti, La Città futura (11 February 1917)"
+        },
+        {
+          "text": "Indifference works powerfully in history. It works passively, but it works.",
+          "source": "Indifferenti, La Città futura (11 February 1917)"
+        },
+        {
+          "text": "To tell the truth, to arrive together at the truth, is a communist and revolutionary act.",
+          "source": "Workers' Democracy, L'Ordine Nuovo (21 June 1919)"
+        },
+        {
+          "text": "Illusion is the most tenacious weed in the collective consciousness; history teaches, but it has no pupils.",
+          "source": "Italy and Spain, L'Ordine Nuovo (11 March 1921)"
+        },
+        {
+          "text": "Instruct yourselves, because we will need all our intelligence. Agitate, because we will need all our enthusiasm. Organise, because we will need all our strength.",
+          "source": "L'Ordine Nuovo, No. 1 (1 May 1919)"
+        },
+        {
+          "text": "I'm a pessimist because of intelligence, but an optimist because of will.",
+          "source": "Letter from prison (19 December 1929)"
+        },
+        {
+          "text": "The crisis consists precisely in the fact that the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear.",
+          "source": "Prison Notebooks, Notebook 3 (c. 1930)"
+        },
+        {
+          "text": "All men are intellectuals: but not all men have in society the function of intellectuals.",
+          "source": "Prison Notebooks"
+        },
+        {
+          "text": "History is at once freedom and necessity.",
+          "source": "Prison Notebooks"
+        },
+        {
+          "text": "Man is a process and, more exactly, the process of his actions.",
+          "source": "Prison Notebooks"
+        }
+      ]
+    },
+    {
+      "id": "trotsky",
+      "name": "Leon Trotsky",
+      "years": "1879–1940",
+      "quotes": [
+        {
+          "text": "Life is beautiful. Let the future generations cleanse it of all evil, oppression and violence, and enjoy it to the full.",
+          "source": "Testament (1940)"
+        },
+        {
+          "text": "Learning carries within itself certain dangers because out of necessity one has to learn from one's enemies.",
+          "source": "Literature and Revolution (1924)"
+        },
+        {
+          "text": "Old age is the most unexpected of all the things that happen to a man.",
+          "source": "Diary in Exile (1935)"
+        },
+        {
+          "text": "The old principle: who does not work shall not eat, has been replaced with a new one: who does not obey shall not eat.",
+          "source": "The Revolution Betrayed (1936)"
+        },
+        {
+          "text": "A means can be justified only by its end. But the end in its turn needs to be justified.",
+          "source": "Their Morals and Ours (1938)"
+        },
+        {
+          "text": "A sledgehammer breaks glass but forges steel.",
+          "source": "We Do Not Change Our Course (1938)"
+        },
+        {
+          "text": "No one yet has learned to drive a locomotive sitting in his study.",
+          "source": "Terrorism and Communism (1920)"
+        },
+        {
+          "text": "Independent character is like independent thought, it cannot be developed without criticism.",
+          "source": "The Revolution Betrayed (1936)"
+        },
+        {
+          "text": "The life of a revolutionary would be quite impossible without a certain amount of \"fatalism.\"",
+          "source": "My Life (1930)"
+        },
+        {
+          "text": "Fascism is nothing but capitalist reaction.",
+          "source": "What Next? (1932)"
+        }
+      ]
+    },
+    {
+      "id": "luxemburg",
+      "name": "Rosa Luxemburg",
+      "years": "1871–1919",
+      "quotes": [
+        {
+          "text": "Freedom is always and exclusively freedom for the one who thinks differently.",
+          "source": "The Russian Revolution (1918)"
+        },
+        {
+          "text": "Freedom only for the supporters of the government, only for the members of one party, however numerous they may be, is no freedom at all.",
+          "source": "The Russian Revolution (1918)"
+        },
+        {
+          "text": "Without general elections, without unrestricted freedom of press and assembly, without a free struggle of opinion, life dies out in every public institution.",
+          "source": "The Russian Revolution (1918)"
+        },
+        {
+          "text": "Historically, the errors committed by a truly revolutionary movement are infinitely more fruitful than the infallibility of the cleverest Central Committee.",
+          "source": "Organizational Questions of Russian Social Democracy (1904)"
+        },
+        {
+          "text": "The proletarian revolution requires no terror for its aims; it hates and despises killing.",
+          "source": "What Does the Spartacus League Want? (1918)"
+        },
+        {
+          "text": "\"Order prevails in Berlin!\" You foolish lackeys! Your \"order\" is built on sand.",
+          "source": "Order Prevails in Berlin (1919)"
+        },
+        {
+          "text": "I was, I am, I shall be!",
+          "source": "Order Prevails in Berlin (1919)"
+        },
+        {
+          "text": "The masses are the decisive element, they are the rock on which the final victory of the revolution will be built.",
+          "source": "Order Prevails in Berlin (1919)"
+        },
+        {
+          "text": "Capital is an historical necessity, but, so too, its grave digger, the socialist proletariat.",
+          "source": "The Junius Pamphlet (1915)"
+        },
+        {
+          "text": "Without the collapse of capitalism the expropriation of the capitalist class is impossible.",
+          "source": "Reform or Revolution (1900)"
+        }
+      ]
+    },
+    {
+      "id": "mao",
+      "name": "Mao Zedong",
+      "years": "1893–1976",
+      "quotes": [
+        {
+          "text": "Political power grows out of the barrel of a gun.",
+          "source": "Problems of War and Strategy (1938)"
+        },
+        {
+          "text": "A revolution is not a dinner party, or writing an essay, or painting a picture, or doing embroidery.",
+          "source": "Report on an Investigation of the Peasant Movement in Hunan (1927)"
+        },
+        {
+          "text": "Let a hundred flowers blossom, let a hundred schools of thought contend.",
+          "source": "On the Correct Handling of Contradictions Among the People (1957)"
+        },
+        {
+          "text": "All reactionaries are paper tigers.",
+          "source": "Talk with Anna Louise Strong (1946)"
+        },
+        {
+          "text": "Politics is war without bloodshed, while war is politics with bloodshed.",
+          "source": "On Protracted War (1938)"
+        },
+        {
+          "text": "A single spark can start a prairie fire.",
+          "source": "Letter of 5 January 1930, quoting an old Chinese saying"
+        },
+        {
+          "text": "You young people, full of vigour and vitality, are in the bloom of life, like the sun at eight or nine in the morning.",
+          "source": "Talk with Chinese students in Moscow (17 November 1957)"
+        },
+        {
+          "text": "Our principle is that the Party commands the gun, and the gun must never be allowed to command the Party.",
+          "source": "Problems of War and Strategy (1938)"
+        },
+        {
+          "text": "We thank Marx, Engels, Lenin and Stalin for giving us a weapon. This weapon is not a machine-gun, but Marxism-Leninism.",
+          "source": "On the People's Democratic Dictatorship (1949)"
+        },
+        {
+          "text": "Serve the people.",
+          "source": "Serve the People (speech, 8 September 1944)"
+        }
+      ]
+    },
+    {
+      "id": "ho",
+      "name": "Ho Chi Minh",
+      "years": "1890–1969",
+      "quotes": [
+        {
+          "text": "Nothing is more precious than independence and freedom.",
+          "source": "Appeal to the nation (17 July 1966)"
+        },
+        {
+          "text": "Vietnam has the right to be a free and independent country, and in fact it is so already.",
+          "source": "Proclamation of Independence (2 September 1945)"
+        },
+        {
+          "text": "Remember that the storm is a good opportunity for the pine and the cypress to show their strength and their stability.",
+          "source": "Quoted in Hoang Van Chi, From Colonialism to Communism (1964)"
+        },
+        {
+          "text": "At first, patriotism, not yet communism, led me to have confidence in Lenin, in the Third International.",
+          "source": "The Path Which Led Me to Leninism (1960)"
+        },
+        {
+          "text": "Journalists are also revolutionary soldiers. The pen and paper are their sharp weapons.",
+          "source": "3rd Congress of the Vietnam Journalists Association (1962)"
+        },
+        {
+          "text": "In practice, the enemy has been making much more propaganda for us than we have ourselves.",
+          "source": "Instructions given at a conference (1950)"
+        },
+        {
+          "text": "Though frontiers and mountains stand between us, proletarians of the whole world come together as one family.",
+          "source": "3rd National Congress of the Vietnam Workers' Party (1960)"
+        },
+        {
+          "text": "For the sake of ten years, plant trees; for the sake of a hundred years, cultivate people.",
+          "source": "Saying adapted from the ancient Guanzi"
+        },
+        {
+          "text": "Nothing is difficult; the only fear is a heart that is not steadfast. Dig through mountains and fill the seas: with resolve, it will be done.",
+          "source": "Verse for youth volunteers, Bắc Kạn (30 March 1951)"
+        },
+        {
+          "text": "Revolutionary morality consists in absolute loyalty to the Party and the people.",
+          "source": "Revolutionary Morality (1958)"
+        }
+      ]
+    },
+    {
+      "id": "che",
+      "name": "Che Guevara",
+      "years": "1928–1967",
+      "quotes": [
+        {
+          "text": "Hasta la victoria siempre!",
+          "source": "Farewell letter to Fidel Castro (1965)"
+        },
+        {
+          "text": "In a revolution one wins or dies, if it is a real one.",
+          "source": "Farewell letter to Fidel Castro (1965)"
+        },
+        {
+          "text": "At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love.",
+          "source": "Socialism and Man in Cuba (1965)"
+        },
+        {
+          "text": "Above all, try always to be able to feel deeply any injustice committed against any person in any part of the world.",
+          "source": "Letter to his children (1965)"
+        },
+        {
+          "text": "Many will call me an adventurer, and that I am... only one of a different sort: one who risks his skin to prove his truths.",
+          "source": "Last letter to his parents (1965)"
+        },
+        {
+          "text": "How close we could look into a bright future should two, three or many Vietnams flourish throughout the world.",
+          "source": "Message to the Tricontinental (1967)"
+        },
+        {
+          "text": "Wherever death may surprise us, let it be welcome, provided that this, our battle cry, may have reached some receptive ear.",
+          "source": "Message to the Tricontinental (1967)"
+        },
+        {
+          "text": "The guerrilla fighter is a social reformer.",
+          "source": "Guerrilla Warfare (1960)"
+        },
+        {
+          "text": "The revolution is not an apple that falls when it is ripe. You have to make it fall.",
+          "source": "Che Guevara Speaks: Selected Speeches and Writings (1967)"
+        },
+        {
+          "text": "If you are capable of trembling with indignation each time that an injustice is committed anywhere in the world, we are comrades.",
+          "source": "Letter to María Rosario Guevara (1964)"
+        }
+      ]
+    },
+    {
+      "id": "castro",
+      "name": "Fidel Castro",
+      "years": "1926–2016",
+      "quotes": [
+        {
+          "text": "Condemn me, it does not matter: history will absolve me.",
+          "source": "History Will Absolve Me, trial defense speech (1953)"
+        },
+        {
+          "text": "A revolution is not a trail of roses… A revolution is a fight to the death between the future and the past.",
+          "source": "Speech on the second anniversary of the revolution (2 January 1961)"
+        },
+        {
+          "text": "Within the revolution, everything; against the revolution, nothing.",
+          "source": "Words to the Intellectuals (1961)"
+        },
+        {
+          "text": "I am a Marxist-Leninist, and I will be a Marxist-Leninist until the last days of my life.",
+          "source": "Speech on the anniversary of the Granma landing (2 December 1961)"
+        },
+        {
+          "text": "Men do not shape destiny. Destiny produces the man for the hour.",
+          "source": "Interview, \"I Won't Be a Dictator\" (1959)"
+        },
+        {
+          "text": "The first duty of the revolutionaries is to tell the truth.",
+          "source": "Speech at Camp Columbia, Havana (8 January 1959)"
+        },
+        {
+          "text": "Revolutions are not exported, they are made by the people.",
+          "source": "Second Declaration of Havana (1962)"
+        },
+        {
+          "text": "Capitalism produces beasts, socialism produces men.",
+          "source": "Speech (22 December 1991)"
+        },
+        {
+          "text": "They talk about the failure of socialism but where is the success of capitalism in Africa, Asia and Latin America?",
+          "source": "Statement (1991)"
+        },
+        {
+          "text": "Capitalism has neither the capacity, nor the moral, nor the ethics, nor the will to solve the problems of poverty.",
+          "source": "Speech (26 July 1991)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+raw/
+dist/
+tools/segment
+tools/harness
+__pycache__/
+.DS_Store
