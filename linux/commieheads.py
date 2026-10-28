@@ -154,6 +154,12 @@ class Saver:
         want = self.bubble_right
         if cx < self.W / 2 - band: want = True
         elif cx > self.W / 2 + band: want = False
+        # never keep the bubble on a side where it no longer fits beside the head
+        bw, gap, margin = self.bubble.get_width(), self.fs * 1.6, self.fs
+        fits_right = self.x + hw + gap + bw <= self.W - margin
+        fits_left = self.x - gap - bw >= margin
+        if want and not fits_right and fits_left: want = False
+        elif not want and not fits_left and fits_right: want = True
         if self.flip_start is None and want != self.bubble_right:
             self.flip_start, self.flip_target = now, want
         if self.flip_start is not None and now - self.flip_start >= FLIP / 2:

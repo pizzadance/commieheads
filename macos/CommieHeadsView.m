@@ -28,6 +28,7 @@ static const NSTimeInterval kFlip = 0.3;        // bubble side switch (fade out,
     BOOL _bubbleRight;
     NSTimeInterval _flipStart;       // < 0 when no flip is running
     BOOL _flipTarget;
+    CGFloat _bubbleWidth;            // last drawn bubble width, used to pick a side it fits on
 }
 
 - (instancetype)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview {
@@ -108,6 +109,7 @@ static NSUInteger WordCount(NSString *s) {
     _vel = NSMakePoint(cos(angle) * speed, sin(angle) * speed);
     _bubbleRight = (_pos.x + hs.width / 2) < NSWidth(b) / 2;
     _flipStart = -1;
+    _bubbleWidth = 0;
     _start = now;
 }
 
@@ -146,6 +148,12 @@ static NSUInteger WordCount(NSString *s) {
     BOOL want = _bubbleRight;
     if (cx < NSWidth(b) / 2 - band) want = YES;
     else if (cx > NSWidth(b) / 2 + band) want = NO;
+    // never keep the bubble on a side where it no longer fits beside the head
+    CGFloat gap = self.fontSize * 1.6, margin = self.fontSize;
+    BOOL fitsRight = _pos.x + hs.width + gap + _bubbleWidth <= NSWidth(b) - margin;
+    BOOL fitsLeft = _pos.x - gap - _bubbleWidth >= margin;
+    if (want && !fitsRight && fitsLeft) want = NO;
+    else if (!want && !fitsLeft && fitsRight) want = YES;
     if (_flipStart < 0 && want != _bubbleRight) { _flipStart = now; _flipTarget = want; }
     if (_flipStart >= 0 && now - _flipStart >= kFlip / 2) _bubbleRight = _flipTarget;
     if (_flipStart >= 0 && now - _flipStart >= kFlip) _flipStart = -1;
@@ -208,6 +216,7 @@ static CGFloat EaseOutBack(CGFloat t) {
     CGFloat tw = ceil(MAX(NSWidth(qr), NSWidth(ar))), spacing = fs * 0.6;
     CGFloat bw = tw + 2 * pad, bh = ceil(NSHeight(qr)) + spacing + ceil(NSHeight(ar)) + 2 * pad;
 
+    _bubbleWidth = bw;
     CGFloat bx = _bubbleRight ? NSMaxX(head) + gap : NSMinX(head) - gap - bw;
     bx = MAX(margin, MIN(NSWidth(b) - margin - bw, bx));
     CGFloat by = NSMaxY(head) - bh * 0.75;                 // bubble sits beside the upper part of the head
